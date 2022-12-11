@@ -8,15 +8,19 @@ const About = () => {
 
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row mt-20">
-                    <img src={about} className="max-w-sm rounded-lg shadow-2xl" alt='' />
+                    <img src={about} className="max-w-sm lg:max-w-lg rounded-lg shadow-2xl" alt='' />
                     <div>
-                        <h1 className="text-5xl font-bold">Raju Talukdar</h1>
-                        <p className="py-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum <br />
-                            expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta,<br /> aut earum nemo
-                            recusandae cumque perferendis! Recusandae alias <br /> accusamus atque.</p>
-                        <span>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste <br />
-                            perspiciatis distinctio harum adipisci magni fuga voluptatibus consequuntur mollitia delectus alias.
+                        <h1 className="text-5xl font-bold text-red-400">Who Am I !!</h1>
+                        <p className="py-6 text-white">My name is Raju. I'm a web developer based <br />
+                            in Faridpur, Dhaka, Bangladesh..</p>
+                        <span className='text-white'>
+                            As a passionate and dedicated MERN stack developer with a strong foundation<br />
+                            in web development technologies, I am eager to leverage my skills and knowledge to deliver<br />
+                            high-quality and efficient software solutions. With my strong understanding<br />
+                            of JavaScript, React.Js, Node.js, and MongoDB, as well as my experience in<br />
+                            developing and deploying web applications, I am confident in my ability to contribute to the <br />
+                            success of  any organization. I am also a quick learner with excellent communication and<br />
+                            problem-solving skills, and I am always looking for opportunities to grow and improve as a developer.<br />
                         </span>
                     </div>
                 </div>

@@ -38,7 +38,7 @@ const Home = () => {
                             </span></h1>
                         <br />
                         <p className="py-6"></p>
-                        <a className="btn btn-primary mb-5 lg:mb-0" href={pdf} download="Portfolio">Download Resume</a>
+                        <a className="btn btn-outline text-white hover:bg-fuchsia-500 mb-5 lg:mb-0" href={pdf} download="Portfolio">Download Resume</a>
                     </div>
                     {/* icons */}
                 </div>

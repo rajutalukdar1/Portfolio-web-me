@@ -12,9 +12,10 @@ const Skill = () => {
 
                     <div>
                         <h1 className="text-5xl font-bold">Profesional Skills</h1>
-                        <p className="py-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum <br />
-                            expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta,<br /> aut earum nemo
-                            recusandae cumque perferendis! Recusandae alias <br /> accusamus atque.</p>
+                        <p className="py-6">HTML5,CSS3,JAVASCRIPT,BOOTSTRAP,TAILWIND,REACT.JS, NODE.JS,<br />
+                            EXPRESS.JS,MONGODB,JSON WEB TOKEN, TAILWIND COMPONENTS DAISYUI<br />
+                            ,and other Fremwork using .
+                        </p>
                     </div>
                     <img src={Skills} className="max-w-sm rounded-lg shadow-2xl" alt='' />
                 </div>

@@ -2,3 +2,10 @@
     padding-left: 15px;
 
 }
+
+.header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: #000000cf;
+}
