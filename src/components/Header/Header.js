@@ -9,7 +9,7 @@ const Header = () => {
             <div className=" py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
                 <div className="relative flex items-center justify-between ">
                     <a
-                        href="/"
+                        href="#home"
                         aria-label="Company"
                         title="Company"
                         className="inline-flex items-center"
@@ -21,7 +21,7 @@ const Header = () => {
                     <ul className="flex items-center hidden space-x-8 lg:flex ">
                         <li>
                             <a
-                                href="/"
+                                href="#home"
                                 aria-label="Our product"
                                 title="Our product"
                                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
@@ -31,7 +31,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a
-                                href="/"
+                                href="#about"
                                 aria-label="Our product"
                                 title="Our product"
                                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
@@ -41,7 +41,17 @@ const Header = () => {
                         </li>
                         <li>
                             <a
-                                href="/"
+                                href="#blog"
+                                aria-label="Our product"
+                                title="Our product"
+                                className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#skills"
                                 aria-label="Product pricing"
                                 title="Product pricing"
                                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
@@ -51,7 +61,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a
-                                href="/"
+                                href="#projects"
                                 aria-label="About us"
                                 title="About us"
                                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
@@ -61,7 +71,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a
-                                href="/"
+                                href="#contact"
                                 aria-label="contact"
                                 title="contact"
                                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
@@ -99,7 +109,7 @@ const Header = () => {
                                     <div className="flex items-center justify-between mb-4">
                                         <div>
                                             <a
-                                                href="/"
+                                                href="#home"
                                                 aria-label="Company"
                                                 title="Company"
                                                 className="inline-flex items-center"
@@ -129,7 +139,7 @@ const Header = () => {
                                         <ul className="space-y-4">
                                             <li>
                                                 <a
-                                                    href="/"
+                                                    href="#home"
                                                     aria-label="Our product"
                                                     title="Our product"
                                                     className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -139,7 +149,7 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <a
-                                                    href="/"
+                                                    href="#about"
                                                     aria-label="Our product"
                                                     title="Our product"
                                                     className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -149,7 +159,17 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <a
-                                                    href="/"
+                                                    href="#blog"
+                                                    aria-label="Our product"
+                                                    title="Our product"
+                                                    className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400"
+                                                >
+                                                    Blog
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="#projects"
                                                     aria-label="Product pricing"
                                                     title="Product pricing"
                                                     className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -159,7 +179,7 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <a
-                                                    href="/"
+                                                    href="#contact"
                                                     aria-label="About us"
                                                     title="About us"
                                                     className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"

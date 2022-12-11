@@ -8,7 +8,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row-reverse text-white custom-padding">
                     <img src={perfil} className="max-w-sm rounded-lg shadow-2xl" alt='' />
@@ -38,7 +38,7 @@ const Home = () => {
                             </span></h1>
                         <br />
                         <p className="py-6"></p>
-                        <a className="btn btn-primary" href={pdf} download="Portfolio">Download Resume</a>
+                        <a className="btn btn-primary mb-5 lg:mb-0" href={pdf} download="Portfolio">Download Resume</a>
                     </div>
                     {/* icons */}
                 </div>
