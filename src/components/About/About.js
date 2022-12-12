@@ -8,7 +8,7 @@ const About = () => {
 
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row mt-20">
-                    <img src={about} className="max-w-sm lg:max-w-lg rounded-lg shadow-2xl" alt='' />
+                    <img src={about} className="sm:w-80 h-72 lg:max-w-lg rounded-lg shadow-2xl" alt='' />
                     <div>
                         <h1 className="text-5xl font-bold text-red-400">Who Am I !!</h1>
                         <p className="py-6 text-white">My name is Raju. I'm a web developer based <br />

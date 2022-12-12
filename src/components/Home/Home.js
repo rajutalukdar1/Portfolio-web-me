@@ -11,7 +11,7 @@ const Home = () => {
         <div id='home'>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row-reverse text-white custom-padding">
-                    <img src={perfil} className="max-w-sm rounded-lg shadow-2xl" alt='' />
+                    <img src={perfil} className="w-80 lg:max-w-sm rounded-lg shadow-2xl" alt='' />
                     <div>
                         <h1 className="text-5xl font-bold">Hi,I'am <span style={{ color: 'red', fontWeight: 'bold' }}>
                             {/* Style will be inherited from the parent element */}
@@ -24,7 +24,7 @@ const Home = () => {
                                 deleteSpeed={50}
                                 delaySpeed={1000}
                             />
-                        </span><br /> <span style={{ color: '#7FE9DE', fontWeight: 'bold' }}>
+                        </span><br /> <span style={{ color: '#00E7FF', fontWeight: 'bold' }}>
                                 {/* Style will be inherited from the parent element */}
                                 <Typewriter
                                     words={['Web Developer', 'Full-Stack Developer', 'Front-End Developer', 'MERN Developer', 'React Developer']}

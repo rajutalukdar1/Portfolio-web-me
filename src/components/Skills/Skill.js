@@ -10,14 +10,14 @@ const Skill = () => {
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row mt-20">
 
-                    <div>
-                        <h1 className="text-5xl font-bold">Profesional Skills</h1>
-                        <p className="py-6">HTML5,CSS3,JAVASCRIPT,BOOTSTRAP,TAILWIND,REACT.JS, NODE.JS,<br />
-                            EXPRESS.JS,MONGODB,JSON WEB TOKEN, TAILWIND COMPONENTS DAISYUI<br />
+                    <div className='text-center'>
+                        <h1 className="text-3xl lg:text-5xl font-bold ">Profesional Skills</h1>
+                        <p className="py-6 text-sm text-white">HTML5,CSS3,JAVASCRIPT,BOOTSTRAP, <br />TAILWIND,REACT.JS, NODE.JS,
+                            EXPRESS.JS,MONGODB,<br />JSON WEB TOKEN, TAILWIND COMPONENTS DAISYUI<br />
                             ,and other Fremwork using .
                         </p>
                     </div>
-                    <img src={Skills} className="max-w-sm rounded-lg shadow-2xl" alt='' />
+                    <img src={Skills} className="sm:w-80 h-72 lg:max-w-sm  rounded-lg" alt='' />
                 </div>
             </div>
 

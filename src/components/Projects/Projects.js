@@ -35,10 +35,10 @@ const Projects = () => {
                             key={i}
                             className="rounded-md shadow-xl image-full">
                             <figure className='flex justify-center items-center '><img className='w-full h-48' src={project.img} alt="" /></figure>
-                            <div className="card-actions text-lg font-semibold justify-around mt-2 text-white w-full bg-[#dd0ff0]">
-                                <p className='btn btn-primary'>{project.name}</p>
-                                <a className='btn btn-primary  hover:bg-red-500' href=""><p>Details</p></a>
-                                <a className='btn btn-primary  hover:bg-red-500' href={project.live_Site} target="_blank" rel="noreferrer">Live Site Link</a>
+                            <div className="card-actions text-lg font-semibold justify-around mt-2 text-white w-full ">
+                                <p className=' text-white border p-2 rounded-md'>{project.name}</p>
+                                <a className='btn btn-outline text-white hover:bg-pink-400' href=""><p>Details</p></a>
+                                <a className='btn btn-outline text-white hover:bg-pink-400' href={project.live_Site} target="_blank" rel="noreferrer">Live Site Link</a>
 
                             </div>
                         </div>)
