@@ -3,19 +3,23 @@ import React from 'react';
 import img1 from '../../assets/web-img/vroom-car.png'
 import img2 from '../../assets/web-img/EduSphere.png'
 import img3 from '../../assets/web-img/CareerIt.png'
+import ProjectCard from './ProjectCard';
 
 const MyProject = [
     {
+        "id": "0001",
         "img": img1,
         "name": "Vroom Car",
         "live_Site": "https://assignment-no-12-57281.web.app/"
     },
     {
+        "id": "0002",
         "img": img2,
         "name": "EduSphere",
         "live_Site": "https://assignment-no-11-f2bd1.web.app/"
     },
     {
+        "id": "0003",
         "img": img3,
         "name": "CareerIt",
         "live_Site": "https://assignment-no-10-b385a.web.app/"
@@ -31,17 +35,10 @@ const Projects = () => {
                 <h1 className='jost_fonts mb-16 text-[#D0D1D1] text-center text-6xl'>Recent Work.</h1>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8'>
                     {
-                        MyProject?.map((project, i) => <div
+                        MyProject?.map((project, i) => <ProjectCard
                             key={i}
-                            className="rounded-md shadow-xl image-full">
-                            <figure className='flex justify-center items-center '><img className='w-full h-48' src={project.img} alt="" /></figure>
-                            <div className="card-actions text-lg font-semibold justify-around mt-2 text-white w-full ">
-                                <p className=' text-white border p-2 rounded-md'>{project.name}</p>
-                                <a className='btn btn-outline text-white hover:bg-pink-400' href=""><p>Details</p></a>
-                                <a className='btn btn-outline text-white hover:bg-pink-400' href={project.live_Site} target="_blank" rel="noreferrer">Live Site Link</a>
-
-                            </div>
-                        </div>)
+                            project={project}
+                        ></ProjectCard>)
                     }
                 </div>
             </div>

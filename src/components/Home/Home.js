@@ -6,6 +6,7 @@ import { FaFacebook, FaGithub, FaInstagramSquare, FaLinkedin } from 'react-icons
 import './Home.css'
 
 
+
 const Home = () => {
     return (
         <div id='home'>
@@ -50,6 +51,7 @@ const Home = () => {
                 <a className='mr-5 text-3xl' href="https://www.facebook.com/Rajuvai013" target="_blank" ><FaFacebook></FaFacebook></a>
                 <a className='mr-5 text-3xl' href="https://www.instagram.com/raju_talukdar__/" target="_blank" ><FaInstagramSquare></FaInstagramSquare></a>
             </div>
+
         </div>
     );
 };
