@@ -29,19 +29,12 @@ const ProjectDetails = () => {
             </div>
 
             <div>
-
-                {
-                    details.map(detail => <li>
-
-                    </li>)
-                }
-
-                {/* <div className="chat chat-start my-8">
+                <div className="chat chat-start my-8">
                     <div className="chat-bubble bg-[#FF0080] text-white">{details[0]}</div>
                     <div className="chat-bubble bg-white text-black mt-4">{details[1]}</div>
                     <div className="chat-bubble bg-[#FF0080] text-white mt-4">{details[2]}</div>
                     <div className="chat-bubble bg-white text-black mt-4">{details[3]}</div>
-                </div> */}
+                </div>
             </div>
 
 
